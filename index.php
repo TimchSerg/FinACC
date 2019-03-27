@@ -1,1 +1,4 @@
-<?php echo "Start"?>
+<?php
+    include('head.php');
+    include('footer.php');
+?>
