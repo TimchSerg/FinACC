@@ -56,3 +56,24 @@
 	font-size:20px;
 	vertical-align:middle;
 }
+
+.icon__custom{
+    margin-right: 15px !important;
+}
+.custom_data_css {
+    border: 1px solid rgb(135, 134, 135) !important;
+}
+.custom_data_css > .webix_ss_header > .webix_hs_center > table > tbody > tr > td{
+    border-right: 1px solid rgb(135, 134, 135) !important;
+}
+.custom_data_css > .webix_ss_header td.webix_last_row{
+    border-bottom: 1px solid rgb(135, 134, 135) !important;
+}
+.custom_button_css > .webix_el_box > button{
+    box-shadow: 0px 0px 95px rgba(135, 134, 135, 0.8) !important;
+    border-radius: 50% 50%;
+    background-color: rgba(218, 227, 252, 0.5);
+}
+.custom_button_css > .webix_el_box > button:hover{
+    background-color: rgba(218, 227, 252, 0.1) !important;
+}

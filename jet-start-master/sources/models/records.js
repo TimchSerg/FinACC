@@ -6,3 +6,11 @@ export const data = new webix.DataCollection({ data:[
 	{ id:5, title:"My Fair Lady", year:1964, votes:533848, rating:8.9, rank:5},
 	{ id:6, title:"12 Angry Men", year:1957, votes:164558, rating:8.9, rank:6}
 ]});
+
+export const dataActive = new webix.DataCollection({ data:[
+	{ id:1, date:new Date(2012, 6, 6), type:'salary', description:"VTI - service", sum:17000},
+	{ id:2, date:new Date(2013, 6, 6), type:'salary', description:"VTI - service", sum:17000},
+	{ id:3, date:new Date(2014, 6, 6), type:'salary', description:"VTI - service", sum:17000},
+	{ id:4, date:new Date(2015, 6, 6), type:'salary', description:"VTI - service", sum:17000},
+	{ id:5, date:new Date(2016, 6, 6), type:'salary', description:"VTI - service", sum:17000},
+]});
