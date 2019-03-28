@@ -20,7 +20,7 @@ export const window_custom = function(id, name_header, objPosition, width=500, h
 			                  {view: "text", name:"Sum", placeholder: 'Sum', label: "Sum", labelWidth: 90, labelAlign:"right"},
                               {view: "textarea", name:"Description", placeholder: 'Description', labelWidth: 90, inputHeight: 150, label: "Description", labelAlign:"right"},
 			                  {cols: [
-							        {view: "button", value: "Edit", click: function(){ $$(id).close(); }},
+							        //{view: "button", value: "Edit", click: function(){ $$(id).close(); }},
 			                        {view: "button", value: "Ok", click: function(){ $$(id).close(); }},
 			                    ]}
 

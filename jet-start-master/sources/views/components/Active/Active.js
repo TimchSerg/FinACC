@@ -7,6 +7,7 @@ export default class Active extends JetView{
 		return { rows: [
               {
                 multi:true,
+				collapsed:true,
                 view:"accordion", type:"head",
                 rows:[
                   { header:"Active report", body: settings_tab, height:100},
@@ -24,11 +25,18 @@ const settings_tab = {
         {},{view: 'button', value: "Add a note", width: 250, css: "custom_button_css",
         on:{
             'onItemClick': function(){
-                window_custom('addNote', 'add a note', {x: 350, y: 350} ); 
+                window_custom('addNote', 'add a note', {x: 350, y: 100} );
             }
         }},{},
-            {view: 'button', value: "Edit post", width: 250, css: "custom_button_css" },{},
-            {view: 'button', value: "Delete post", width: 250, css: "custom_button_css" },{},
+            {view: 'button', value: "Edit post", width: 250, css: "custom_button_css",
+			on:{
+	            'onItemClick': function(){
+	                window_custom('editPost', 'Edit post', {x: 350, y: 100} );
+	            }
+	        } },{},
+            {view: 'button', value: "Delete post", width: 250, css: "custom_button_css", click: ()=>{
+				console.log('delete');
+			} },{},
         ]},
         {heigth: 5},
         /*{cols: [

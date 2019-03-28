@@ -6,6 +6,7 @@ export default class ActiveDataView extends JetView{
 		return {
             view:"datatable",
             autoConfig:true,
+			select:true,
             css:"custom_data_css",
 			resizeColumn:{headerOnly:true},
 			resizeColumn:{size:6},

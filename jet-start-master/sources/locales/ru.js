@@ -65,4 +65,9 @@ export default {
 	"Confirm new password" : "Повторите новый пароль",
 	"reset password" : "Изменить пароль",
 	"clean" : "очистить",
+
+	"Active" : "Актив",
+	"Passive" : "Пассив",
+	"Consumption" : "Расход",
+	"Constant_flow" : "Постоянный расход"
 };

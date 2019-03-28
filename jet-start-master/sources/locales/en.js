@@ -66,4 +66,10 @@ export default {
 	"Confirm new password" : "Repeat new password",
 	"reset password" : "reset password",
 	"clean" : "clean",
+
+
+	"Active" : "Active",
+	"Passive" : "Passive",
+	"Consumption" : "Consumption",
+	"Constant_flow" : "Constant_flow"
 };
